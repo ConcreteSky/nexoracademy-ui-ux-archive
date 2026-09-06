@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Design technical blueprint</title>
+  <desc id="desc">A technical blueprint showing how requirements become system architecture, technology choices, data design, UI layouts, and review-ready specifications before coding.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#0d2542"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#55d8ff"/>
+      <stop offset="1" stop-color="#7f7cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#020914" flood-opacity="0.45"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#55d8ff"/>
+    </marker>
+    <style>
+      .heading { font-family: Arial, Helvetica, sans-serif; fill: #f5fbff; }
+      .label { font-family: Arial, Helvetica, sans-serif; fill: #b9cfe4; font-size: 20px; }
+      .boxTitle { font-family: Arial, Helvetica, sans-serif; fill: #f5fbff; font-size: 25px; font-weight: 700; }
+      .boxText { font-family: Arial, Helvetica, sans-serif; fill: #c8d9e8; font-size: 18px; }
+      .small { font-family: Arial, Helvetica, sans-serif; fill: #8fa9c0; font-size: 16px; }
+      .box { fill: #102b49; stroke: #2d5980; stroke-width: 2; }
+      .line { fill: none; stroke: #55d8ff; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#background)"/>
+  <g opacity="0.18" stroke="#4d92bb" stroke-width="1">
+    <path d="M0 110H1600M0 210H1600M0 310H1600M0 410H1600M0 510H1600M0 610H1600M0 710H1600M0 810H1600M0 910H1600"/>
+    <path d="M100 0V1000M300 0V1000M500 0V1000M700 0V1000M900 0V1000M1100 0V1000M1300 0V1000M1500 0V1000"/>
+  </g>
+
+  <text x="92" y="88" class="heading" font-size="25" font-weight="700" letter-spacing="4">03 / DESIGN</text>
+  <text x="92" y="145" class="heading" font-size="47" font-weight="700">Technical blueprint before coding</text>
+  <text x="92" y="188" class="label">Translate requirements into an approved system architecture, data model, technology plan, and UI specification.</text>
+  <rect x="92" y="220" width="1416" height="4" rx="2" fill="url(#accent)"/>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="92" y="284" width="278" height="230" rx="18"/>
+    <circle cx="132" cy="326" r="22" fill="#1d5e82"/>
+    <text x="124" y="333" class="heading" font-size="20" font-weight="700">01</text>
+    <text x="132" y="378" class="boxTitle">Requirements</text>
+    <text x="132" y="415" class="boxText">• User stories</text>
+    <text x="132" y="446" class="boxText">• Business constraints</text>
+    <text x="132" y="477" class="boxText">• Success criteria</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="458" y="284" width="316" height="230" rx="18"/>
+    <circle cx="498" cy="326" r="22" fill="#1d5e82"/>
+    <text x="490" y="333" class="heading" font-size="20" font-weight="700">02</text>
+    <text x="498" y="378" class="boxTitle">System architecture</text>
+    <text x="498" y="415" class="boxText">• Client application</text>
+    <text x="498" y="446" class="boxText">• Services &amp; API contracts</text>
+    <text x="498" y="477" class="boxText">• Integrations &amp; security</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="862" y="284" width="290" height="230" rx="18"/>
+    <circle cx="902" cy="326" r="22" fill="#1d5e82"/>
+    <text x="894" y="333" class="heading" font-size="20" font-weight="700">03</text>
+    <text x="902" y="378" class="boxTitle">Technical choices</text>
+    <text x="902" y="415" class="boxText">• Frontend stack</text>
+    <text x="902" y="446" class="boxText">• Backend services</text>
+    <text x="902" y="477" class="boxText">• Delivery &amp; testing</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="1240" y="284" width="268" height="230" rx="18"/>
+    <circle cx="1280" cy="326" r="22" fill="#1d5e82"/>
+    <text x="1272" y="333" class="heading" font-size="20" font-weight="700">04</text>
+    <text x="1280" y="378" class="boxTitle">Data design</text>
+    <text x="1280" y="415" class="boxText">• Entities</text>
+    <text x="1280" y="446" class="boxText">• Relationships</text>
+    <text x="1280" y="477" class="boxText">• Validation rules</text>
+  </g>
+
+  <path class="line" d="M370 399H448"/>
+  <path class="line" d="M774 399H852"/>
+  <path class="line" d="M1152 399H1230"/>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="610" width="664" height="235" rx="20" fill="#113653" stroke="#3a779a" stroke-width="2"/>
+    <text x="132" y="663" class="boxTitle">UI layout specification</text>
+    <text x="132" y="700" class="boxText">Information architecture, screen flows, wireframes, responsive states, and component behavior.</text>
+    <g transform="translate(132 732)">
+      <rect width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
+      <rect x="132" width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
+      <rect x="264" width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
+      <rect x="396" width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
+      <path d="M15 20H100M15 35H78M15 50H90M147 20H234M147 35H204M147 50H220M279 20H366M279 35H336M279 50H354M411 20H498M411 35H468M411 50H486" stroke="#a6c7dc" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="844" y="610" width="664" height="235" rx="20" fill="#113653" stroke="#3a779a" stroke-width="2"/>
+    <text x="884" y="663" class="boxTitle">Review-ready specification</text>
+    <text x="884" y="700" class="boxText">Architecture diagram · data schema · UI layouts · acceptance criteria · implementation plan</text>
+    <path d="M884 750H1320" stroke="#4f88aa" stroke-width="2"/>
+    <path d="M884 785H1250" stroke="#4f88aa" stroke-width="2"/>
+    <path d="M884 820H1170" stroke="#4f88aa" stroke-width="2"/>
+    <circle cx="1390" cy="774" r="37" fill="#184f6d" stroke="#55d8ff" stroke-width="3"/>
+    <path d="M1372 775l12 12 25-29" fill="none" stroke="#a9efff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <path class="line" d="M424 514V568H1240V600"/>
+  <path class="line" d="M1007 514V568H1090V600"/>
+  <text x="92" y="927" class="small">Review and approval gate</text>
+  <text x="92" y="962" class="heading" font-size="27" font-weight="700">Blueprint approved  →  coding begins with fewer assumptions</text>
+</svg>
