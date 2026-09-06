@@ -1,113 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
-  <title id="title">Design technical blueprint</title>
-  <desc id="desc">A technical blueprint showing how requirements become system architecture, technology choices, data design, UI layouts, and review-ready specifications before coding.</desc>
+  <title id="title">Hand-drawn UI and UX design blueprint</title>
+  <desc id="desc">A blue graph-paper board with hand-drawn website wireframes, interface components, and responsive mobile sketches.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071426"/>
-      <stop offset="1" stop-color="#0d2542"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#55d8ff"/>
-      <stop offset="1" stop-color="#7f7cff"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#020914" flood-opacity="0.45"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7fb4cf" stroke-width="1" opacity=".36"/>
+      <path d="M160 0H0V160" fill="none" stroke="#4f8faf" stroke-width="2" opacity=".2"/>
+    </pattern>
+    <filter id="paperShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#17364d" flood-opacity=".35"/>
     </filter>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-      <path d="M0 0L10 5L0 10Z" fill="#55d8ff"/>
-    </marker>
     <style>
-      .heading { font-family: Arial, Helvetica, sans-serif; fill: #f5fbff; }
-      .label { font-family: Arial, Helvetica, sans-serif; fill: #b9cfe4; font-size: 20px; }
-      .boxTitle { font-family: Arial, Helvetica, sans-serif; fill: #f5fbff; font-size: 25px; font-weight: 700; }
-      .boxText { font-family: Arial, Helvetica, sans-serif; fill: #c8d9e8; font-size: 18px; }
-      .small { font-family: Arial, Helvetica, sans-serif; fill: #8fa9c0; font-size: 16px; }
-      .box { fill: #102b49; stroke: #2d5980; stroke-width: 2; }
-      .line { fill: none; stroke: #55d8ff; stroke-width: 3; marker-end: url(#arrow); }
+      .ink { fill: none; stroke: #164f70; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #326f90; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .faint { fill: none; stroke: #659db7; stroke-width: 2; stroke-linecap: round; }
+      .label { fill: #164f70; font-family: "Comic Sans MS", "Segoe Print", cursive; font-weight: 700; }
+      .note { fill: #326f90; font-family: "Comic Sans MS", "Segoe Print", cursive; }
     </style>
   </defs>
 
-  <rect width="1600" height="1000" fill="url(#background)"/>
-  <g opacity="0.18" stroke="#4d92bb" stroke-width="1">
-    <path d="M0 110H1600M0 210H1600M0 310H1600M0 410H1600M0 510H1600M0 610H1600M0 710H1600M0 810H1600M0 910H1600"/>
-    <path d="M100 0V1000M300 0V1000M500 0V1000M700 0V1000M900 0V1000M1100 0V1000M1300 0V1000M1500 0V1000"/>
+  <rect width="1600" height="1000" fill="#d9f0f7"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <path d="M90 105C280 79 472 104 641 88S1047 80 1495 106" class="ink"/>
+  <text x="108" y="76" class="label" font-size="40">Nexora UI / UX — sketch board</text>
+  <text x="1130" y="77" class="note" font-size="21">rough wireframe ideas</text>
+
+  <!-- Desktop landing-page wireframe -->
+  <g filter="url(#paperShadow)">
+    <path d="M107 171C104 156 116 147 131 149L770 146C787 148 792 157 791 174L796 574C793 588 783 593 768 591L125 593C111 589 106 579 108 564Z" fill="#effaff" stroke="#164f70" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <text x="125" y="137" class="label" font-size="24">desktop / home</text>
+  <path d="M126 190C285 184 551 188 768 189" class="ink"/>
+  <path d="M143 213H255M524 213H579M605 213H655M681 213H740" class="thin"/>
+  <circle cx="145" cy="212" r="7" fill="#164f70"/>
+  <path d="M132 254C272 246 421 248 478 256L470 409C354 401 236 405 132 410Z" fill="#c8e8f4" stroke="#164f70" stroke-width="3"/>
+  <path d="M154 279C227 267 359 273 432 278M154 305C232 297 382 301 445 305M154 330C215 322 322 327 370 331" class="thin"/>
+  <path d="M154 367C219 359 292 363 340 370L340 392L154 393Z" fill="#8ec9df" stroke="#164f70" stroke-width="3"/>
+  <path d="M505 255C591 240 718 255 756 285L754 407C661 394 575 404 503 409Z" fill="#acdceb" stroke="#164f70" stroke-width="3"/>
+  <circle cx="629" cy="329" r="57" fill="none" stroke="#326f90" stroke-width="3"/>
+  <path d="M588 347C609 309 639 295 675 304M593 365C633 379 662 371 687 342" class="thin"/>
+  <path d="M132 449C205 440 283 444 351 451L347 558C271 552 199 556 132 558ZM377 449C449 439 529 445 594 451L592 558C514 551 446 556 377 558ZM621 449C668 440 722 446 758 451L759 558C712 552 664 556 621 558Z" fill="#e2f4fa" stroke="#164f70" stroke-width="3"/>
+  <path d="M152 475H315M152 498H278M397 475H567M397 498H530M641 475H737M641 498H713" class="faint"/>
+
+  <!-- Loose annotation marks: visual only, no explanatory process prose -->
+  <path d="M83 312C56 312 57 279 82 275M82 275L70 265M82 275L68 285" class="thin"/>
+  <text x="20" y="253" class="note" font-size="20" transform="rotate(-7 20 253)">hero</text>
+  <path d="M298 618C323 640 347 642 368 625" class="thin"/>
+  <text x="284" y="666" class="note" font-size="20" transform="rotate(4 284 666)">cards</text>
+
+  <!-- Component scraps -->
+  <g transform="translate(871 153) rotate(2)">
+    <path d="M12 7L372 0L380 224L5 230Z" fill="#fff9c9" stroke="#164f70" stroke-width="3"/>
+    <text x="31" y="43" class="label" font-size="23">little UI pieces</text>
+    <path d="M32 68C92 61 153 64 215 68L215 103C151 100 88 104 32 105Z" fill="#c1e5f1" stroke="#164f70" stroke-width="3"/>
+    <path d="M32 126C118 120 205 124 321 129L319 179C215 172 115 177 32 179Z" fill="#e8f8fc" stroke="#164f70" stroke-width="3"/>
+    <circle cx="55" cy="152" r="12" fill="#8ec9df" stroke="#164f70" stroke-width="3"/>
+    <path d="M80 145H280M80 163H236" class="thin"/>
+    <path d="M254 70C291 63 329 66 348 73L348 104C318 99 283 104 254 105Z" fill="#8ec9df" stroke="#164f70" stroke-width="3"/>
   </g>
 
-  <text x="92" y="88" class="heading" font-size="25" font-weight="700" letter-spacing="4">03 / DESIGN</text>
-  <text x="92" y="145" class="heading" font-size="47" font-weight="700">Technical blueprint before coding</text>
-  <text x="92" y="188" class="label">Translate requirements into an approved system architecture, data model, technology plan, and UI specification.</text>
-  <rect x="92" y="220" width="1416" height="4" rx="2" fill="url(#accent)"/>
-
-  <g filter="url(#shadow)">
-    <rect class="box" x="92" y="284" width="278" height="230" rx="18"/>
-    <circle cx="132" cy="326" r="22" fill="#1d5e82"/>
-    <text x="124" y="333" class="heading" font-size="20" font-weight="700">01</text>
-    <text x="132" y="378" class="boxTitle">Requirements</text>
-    <text x="132" y="415" class="boxText">• User stories</text>
-    <text x="132" y="446" class="boxText">• Business constraints</text>
-    <text x="132" y="477" class="boxText">• Success criteria</text>
+  <!-- Course/detail page sketch -->
+  <g transform="translate(885 440) rotate(-1)">
+    <path d="M4 7C81 2 380 0 529 10L526 365C371 357 151 364 6 357Z" fill="#f2fbff" stroke="#164f70" stroke-width="4"/>
+    <path d="M25 34C191 29 356 31 506 35" class="ink"/>
+    <path d="M27 64H149M388 64H436M453 64H500" class="thin"/>
+    <path d="M31 104C144 94 228 101 258 109L256 210C170 204 101 207 31 211Z" fill="#bce2ef" stroke="#164f70" stroke-width="3"/>
+    <path d="M280 105C365 97 444 100 499 110L499 210C412 200 352 205 280 210Z" fill="#e1f4fa" stroke="#164f70" stroke-width="3"/>
+    <path d="M298 132H473M298 155H440M298 178H410" class="thin"/>
+    <path d="M32 247C133 238 252 243 498 250M32 276C143 268 304 270 461 278M32 305C155 296 317 302 428 308" class="thin"/>
+    <path d="M32 328C90 320 166 324 219 330L219 350L32 350Z" fill="#8ec9df" stroke="#164f70" stroke-width="3"/>
   </g>
+  <text x="904" y="424" class="label" font-size="24">course detail</text>
 
-  <g filter="url(#shadow)">
-    <rect class="box" x="458" y="284" width="316" height="230" rx="18"/>
-    <circle cx="498" cy="326" r="22" fill="#1d5e82"/>
-    <text x="490" y="333" class="heading" font-size="20" font-weight="700">02</text>
-    <text x="498" y="378" class="boxTitle">System architecture</text>
-    <text x="498" y="415" class="boxText">• Client application</text>
-    <text x="498" y="446" class="boxText">• Services &amp; API contracts</text>
-    <text x="498" y="477" class="boxText">• Integrations &amp; security</text>
+  <!-- Mobile responsive sketches -->
+  <g transform="translate(176 715) rotate(-2)">
+    <path d="M5 0C56 -5 115 -4 143 3L147 242C105 247 52 245 4 240Z" fill="#effaff" stroke="#164f70" stroke-width="4"/>
+    <rect x="59" y="12" width="34" height="6" rx="3" fill="#164f70"/>
+    <path d="M20 39H129M20 58H92" class="thin"/>
+    <path d="M20 78C54 72 103 76 129 83L129 139C88 135 54 137 20 139Z" fill="#bce2ef" stroke="#164f70" stroke-width="3"/>
+    <path d="M20 160C54 154 103 157 129 164L129 211C91 207 50 209 20 211Z" fill="#e2f4fa" stroke="#164f70" stroke-width="3"/>
+    <circle cx="76" cy="227" r="5" fill="#164f70"/>
   </g>
-
-  <g filter="url(#shadow)">
-    <rect class="box" x="862" y="284" width="290" height="230" rx="18"/>
-    <circle cx="902" cy="326" r="22" fill="#1d5e82"/>
-    <text x="894" y="333" class="heading" font-size="20" font-weight="700">03</text>
-    <text x="902" y="378" class="boxTitle">Technical choices</text>
-    <text x="902" y="415" class="boxText">• Frontend stack</text>
-    <text x="902" y="446" class="boxText">• Backend services</text>
-    <text x="902" y="477" class="boxText">• Delivery &amp; testing</text>
+  <g transform="translate(355 715) rotate(3)">
+    <path d="M5 0C56 -5 115 -4 143 3L147 242C105 247 52 245 4 240Z" fill="#effaff" stroke="#164f70" stroke-width="4"/>
+    <rect x="59" y="12" width="34" height="6" rx="3" fill="#164f70"/>
+    <path d="M20 39H129" class="thin"/>
+    <path d="M20 64C54 58 101 62 129 68L129 99C87 95 52 97 20 99Z" fill="#8ec9df" stroke="#164f70" stroke-width="3"/>
+    <path d="M20 121H129M20 142H115M20 163H121" class="thin"/>
+    <path d="M20 184C54 178 101 182 129 188L129 211C90 207 52 209 20 211Z" fill="#bce2ef" stroke="#164f70" stroke-width="3"/>
+    <circle cx="76" cy="227" r="5" fill="#164f70"/>
   </g>
+  <text x="168" y="986" class="note" font-size="22">small screen check</text>
 
-  <g filter="url(#shadow)">
-    <rect class="box" x="1240" y="284" width="268" height="230" rx="18"/>
-    <circle cx="1280" cy="326" r="22" fill="#1d5e82"/>
-    <text x="1272" y="333" class="heading" font-size="20" font-weight="700">04</text>
-    <text x="1280" y="378" class="boxTitle">Data design</text>
-    <text x="1280" y="415" class="boxText">• Entities</text>
-    <text x="1280" y="446" class="boxText">• Relationships</text>
-    <text x="1280" y="477" class="boxText">• Validation rules</text>
-  </g>
-
-  <path class="line" d="M370 399H448"/>
-  <path class="line" d="M774 399H852"/>
-  <path class="line" d="M1152 399H1230"/>
-
-  <g filter="url(#shadow)">
-    <rect x="92" y="610" width="664" height="235" rx="20" fill="#113653" stroke="#3a779a" stroke-width="2"/>
-    <text x="132" y="663" class="boxTitle">UI layout specification</text>
-    <text x="132" y="700" class="boxText">Information architecture, screen flows, wireframes, responsive states, and component behavior.</text>
-    <g transform="translate(132 732)">
-      <rect width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
-      <rect x="132" width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
-      <rect x="264" width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
-      <rect x="396" width="118" height="70" rx="8" fill="#0b2038" stroke="#55d8ff" stroke-width="2"/>
-      <path d="M15 20H100M15 35H78M15 50H90M147 20H234M147 35H204M147 50H220M279 20H366M279 35H336M279 50H354M411 20H498M411 35H468M411 50H486" stroke="#a6c7dc" stroke-width="5" stroke-linecap="round"/>
-    </g>
-  </g>
-
-  <g filter="url(#shadow)">
-    <rect x="844" y="610" width="664" height="235" rx="20" fill="#113653" stroke="#3a779a" stroke-width="2"/>
-    <text x="884" y="663" class="boxTitle">Review-ready specification</text>
-    <text x="884" y="700" class="boxText">Architecture diagram · data schema · UI layouts · acceptance criteria · implementation plan</text>
-    <path d="M884 750H1320" stroke="#4f88aa" stroke-width="2"/>
-    <path d="M884 785H1250" stroke="#4f88aa" stroke-width="2"/>
-    <path d="M884 820H1170" stroke="#4f88aa" stroke-width="2"/>
-    <circle cx="1390" cy="774" r="37" fill="#184f6d" stroke="#55d8ff" stroke-width="3"/>
-    <path d="M1372 775l12 12 25-29" fill="none" stroke="#a9efff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-
-  <path class="line" d="M424 514V568H1240V600"/>
-  <path class="line" d="M1007 514V568H1090V600"/>
-  <text x="92" y="927" class="small">Review and approval gate</text>
-  <text x="92" y="962" class="heading" font-size="27" font-weight="700">Blueprint approved  →  coding begins with fewer assumptions</text>
+  <!-- hand-drawn decorative tape and design marks -->
+  <path d="M697 675l117 -14 8 45-117 14z" fill="#b9dce7" opacity=".8" transform="rotate(-8 755 683)"/>
+  <path d="M825 866c49-25 101-28 147-4M973 862l-14-13M973 862l-18 10" class="thin"/>
+  <text x="1038" y="898" class="note" font-size="21" transform="rotate(3 1038 898)">mobile + desktop</text>
+  <path d="M1110 911C1257 934 1390 922 1497 894" class="ink"/>
+  <text x="1130" y="965" class="label" font-size="28">UI / UX wireframe blueprint</text>
 </svg>
