@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud və DevOps bloqu</title><desc id="desc">Cloud, kod mərhələləri və deploy axını</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#3554d1"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="#141414"/><circle cx="930" cy="170" r="280" fill="#1b2f6b" opacity=".28"/>
+  <path d="M350 365h500a115 115 0 0 0 4-230 185 185 0 0 0-344-42 138 138 0 0 0-160 272Z" fill="url(#g)"/>
+  <path d="M255 535h690" stroke="#5ba7ff" stroke-width="7"/><g fill="#1f1f1f" stroke="#7bbcff" stroke-width="5"><rect x="175" y="485" width="220" height="125" rx="25"/><rect x="490" y="485" width="220" height="125" rx="25"/><rect x="805" y="485" width="220" height="125" rx="25"/></g>
+  <g fill="#9ed8ff"><circle cx="230" cy="547" r="13"/><circle cx="545" cy="547" r="13"/><circle cx="860" cy="547" r="13"/></g><path d="m405 548 65-40v80l-65-40ZM720 548l65-40v80l-65-40Z" fill="#5ba7ff"/>
+</svg>

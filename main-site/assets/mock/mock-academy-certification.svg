@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">IT sertifikasiyası</title><desc id="desc">Sertifikat sənədi, medal və şəbəkə simvolları</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#3554d1"/><stop offset=".6" stop-color="#5ba7ff"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>
+  <rect width="1200" height="900" fill="#141414"/><rect x="225" y="105" width="750" height="650" rx="48" fill="#1f1f1f" stroke="#262626" stroke-width="8"/>
+  <rect x="315" y="205" width="570" height="365" rx="28" fill="#141414"/><rect x="390" y="285" width="420" height="25" rx="12" fill="#595959"/><rect x="390" y="350" width="300" height="20" rx="10" fill="#434343"/><rect x="390" y="402" width="355" height="20" rx="10" fill="#434343"/>
+  <circle cx="760" cy="605" r="115" fill="url(#g)"/><path d="m704 692-42 118 98-46 98 46-42-118" fill="#3554d1"/><path d="m760 540 21 42 46 7-33 32 8 46-42-22-42 22 8-46-33-32 46-7 21-42Z" fill="#141414"/>
+</svg>

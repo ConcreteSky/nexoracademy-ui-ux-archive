@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Şəbəkə sertifikasiyası bələdçisi</title><desc id="desc">Sual işarəsi, şəbəkə qovşaqları və bələdçi sənədi</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#3554d1"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="#141414"/><rect x="145" y="95" width="910" height="610" rx="50" fill="#1f1f1f" stroke="#262626" stroke-width="7"/>
+  <rect x="235" y="175" width="520" height="450" rx="28" fill="#141414"/><rect x="315" y="260" width="360" height="22" rx="11" fill="#595959"/><rect x="315" y="330" width="280" height="18" rx="9" fill="#434343"/><rect x="315" y="385" width="320" height="18" rx="9" fill="#434343"/><rect x="315" y="440" width="245" height="18" rx="9" fill="#434343"/>
+  <circle cx="875" cy="390" r="155" fill="url(#g)"/><path d="M830 350c0-56 90-70 105-18 11 38-19 53-44 71-20 14-20 30-20 48" fill="none" stroke="#141414" stroke-width="32" stroke-linecap="round"/><circle cx="871" cy="510" r="18" fill="#141414"/>
+</svg>

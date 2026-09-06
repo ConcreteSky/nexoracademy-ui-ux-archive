@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Nexora Academy vakansiya detalı."
+    />
+    <meta name="nexora-api-base" content="http://localhost:8080" />
+    <title>Vakansiya | Nexora Academy</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <script defer src="chat.js"></script>
+  </head>
+  <body
+    class="__variable_7fc4d2 antialiased"
+    style="overflow: auto"
+    data-page="vacancy-details"
+  >
+    <noscript>Bu saytın işləməsi üçün JavaScript aktiv olmalıdır.</noscript>
+
+    <div>
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <div class="header__group">
+              <div class="header__group-item">
+                <a class="header__logo" href="index.html">
+                  <img
+                    alt="Nexora Academy"
+                    data-nimg="1"
+                    decoding="async"
+                    height="52"
+                    loading="eager"
+                    src="assets/logo.svg"
+                    style="color: transparent"
+                    width="107"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="header__group">
+              <div class="header__group-item">
+                <div class="header__menu">
+                  <div class="header__menu-body">
+                    <ul class="header__menu-list">
+                      <li>
+                        <a
+                          class="header__menu-link"
+                          href="index.html"
+                        >
+                          <span> Ana səhifə </span>
+                        </a>
+                      </li>
+                      <li>
+                        <div class="header__dropdown">
+                          <a
+                            class="header__dropdown-item"
+                            href="courses.html"
+                          >
+                            Bütün kurslar
+                          </a>
+                          <a
+                            class="header__dropdown-item"
+                            href="categories.html"
+                            >Kurs kateqoriyaları</a
+                          >
+                        </div>
+                        <p class="header__menu-link">
+                          <span> Kurslar </span>
+                          <span class="header__dropdown-arrow">
+                            <svg
+                              fill="none"
+                              height="24"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-miterlimit="10"
+                              stroke-width="1.5"
+                              viewbox="0 0 24 24"
+                              width="24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </p>
+                      </li>
+                      <li>
+                        <a
+                          class="header__menu-link"
+                          href="academy.html"
+                        >
+                          <span> Akademiya </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="header__menu-link"
+                          href="career.html"
+                        >
+                          <span> Karyera </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="header__menu-link"
+                          href="faq.html"
+                        >
+                          <span> FAQ </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="header__menu-link"
+                          href="news.html"
+                        >
+                          <span> Xəbərlər </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="header__menu-link"
+                          href="contact.html"
+                        >
+                          <span> Əlaqə </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a
+                  class="ai-btn ai-btn--primary header__cta"
+                  href="https://courses.nexoracademy.az/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  İndi başla
+                </a>
+              </div>
+              <div class="header__group-item">
+                <button
+                  class="header__burger"
+                  type="button"
+                  aria-label="Menyunu aç"
+                >
+                  <svg
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                    stroke-width="1.5"
+                    viewbox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M3 7h18M3 12h18M3 17h18"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu" aria-hidden="true">
+          <div class="mobile-menu__container">
+            <div class="mobile-menu__header">
+              <a class="mobile-menu__logo" href="index.html">
+                <img
+                  alt="Nexora Academy"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="assets/logo.svg"
+                  width="82"
+                />
+              </a>
+              <button
+                class="mobile-menu__close"
+                type="button"
+                aria-label="Menyunu bağla"
+              >
+                <svg
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  stroke-width="1.5"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M18 6l-12 12M6 6l12 12"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="index.html"
+                >
+                  Ana səhifə
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="courses.html"
+                >
+                  Bütün kurslar
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="categories.html"
+                >
+                  Kurs kateqoriyaları
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="academy.html"
+                >
+                  Akademiya
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="career.html"
+                >
+                  Karyera
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="faq.html"
+                >
+                  FAQ
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="news.html"
+                >
+                  Xəbərlər
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__accordion-item">
+              <div class="mobile-menu__accordion-header">
+                <a
+                  class="mobile-menu__accordion-title"
+                  href="contact.html"
+                >
+                  Əlaqə
+                </a>
+              </div>
+            </div>
+            <div class="mobile-menu__divider"></div>
+          </div>
+          <div class="mobile-menu__footer">
+            <ul class="social-media-list">
+              <li>
+                <a
+                  href="privacy.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div>
+                    <svg
+                      class=""
+                      fill="white"
+                      height="16"
+                      viewbox="0 0 24 25"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        fill="#454545"
+                        height="24"
+                        rx="5"
+                        width="24"
+                        y="0.0371094"
+                      ></rect>
+                      <path
+                        d="M13.0281 2.00073C14.1535 2.00259 14.7238 2.00855 15.2166 2.02322L15.4107 2.02956C15.6349 2.03753 15.8561 2.04753 16.1228 2.06003C17.1869 2.1092 17.9128 2.27753 18.5503 2.52503C19.2094 2.7792 19.7661 3.12253 20.3219 3.67837C20.8769 4.2342 21.2203 4.79253 21.4753 5.45003C21.7219 6.0867 21.8903 6.81337 21.9403 7.87753C21.9522 8.1442 21.9618 8.3654 21.9697 8.58964L21.976 8.78373C21.9906 9.27647 21.9973 9.84686 21.9994 10.9723L22.0002 11.7179C22.0003 11.809 22.0003 11.903 22.0003 12L22.0002 12.2821L21.9996 13.0278C21.9977 14.1532 21.9918 14.7236 21.9771 15.2163L21.9707 15.4104C21.9628 15.6347 21.9528 15.8559 21.9403 16.1225C21.8911 17.1867 21.7219 17.9125 21.4753 18.55C21.2211 19.2092 20.8769 19.7659 20.3219 20.3217C19.7661 20.8767 19.2069 21.22 18.5503 21.475C17.9128 21.7217 17.1869 21.89 16.1228 21.94C15.8561 21.9519 15.6349 21.9616 15.4107 21.9694L15.2166 21.9757C14.7238 21.9904 14.1535 21.997 13.0281 21.9992L12.2824 22C12.1913 22 12.0973 22 12.0003 22L11.7182 22L10.9725 21.9993C9.8471 21.9975 9.27672 21.9915 8.78397 21.9768L8.58989 21.9705C8.36564 21.9625 8.14444 21.9525 7.87778 21.94C6.81361 21.8909 6.08861 21.7217 5.45028 21.475C4.79194 21.2209 4.23444 20.8767 3.67861 20.3217C3.12278 19.7659 2.78028 19.2067 2.52528 18.55C2.27778 17.9125 2.11028 17.1867 2.06028 16.1225C2.0484 15.8559 2.03871 15.6347 2.03086 15.4104L2.02457 15.2163C2.00994 14.7236 2.00327 14.1532 2.00111 13.0278L2.00098 10.9723C2.00284 9.84686 2.00879 9.27647 2.02346 8.78373L2.02981 8.58964C2.03778 8.3654 2.04778 8.1442 2.06028 7.87753C2.10944 6.81253 2.27778 6.08753 2.52528 5.45003C2.77944 4.7917 3.12278 4.2342 3.67861 3.67837C4.23444 3.12253 4.79278 2.78003 5.45028 2.52503C6.08778 2.27753 6.81278 2.11003 7.87778 2.06003C8.14444 2.04816 8.36564 2.03847 8.58989 2.03062L8.78397 2.02433C9.27672 2.00969 9.8471 2.00302 10.9725 2.00086L13.0281 2.00073ZM12.0003 7.00003C9.23738 7.00003 7.00028 9.23956 7.00028 12C7.00028 14.7629 9.23981 17 12.0003 17C14.7632 17 17.0003 14.7605 17.0003 12C17.0003 9.2371 14.7607 7.00003 12.0003 7.00003Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span> Məxfilik </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="terms.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div>
+                    <svg
+                      class=""
+                      fill="white"
+                      height="16"
+                      viewbox="0 0 24 24"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        fill="#454545"
+                        height="24"
+                        rx="5"
+                        width="24"
+                        y="0.0371094"
+                      ></rect>
+                      <path
+                        d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span> Şərtlər </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="accessibility.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div>
+                    <svg
+                      class=""
+                      fill="white"
+                      height="16"
+                      viewbox="0 0 24 24"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        fill="#454545"
+                        height="24"
+                        rx="5"
+                        width="24"
+                      ></rect>
+                      <path
+                        d="M12.2439 4C12.778 4.00294 14.1143 4.01586 15.5341 4.07273L16.0375 4.09468C17.467 4.16236 18.8953 4.27798 19.6037 4.4755C20.5486 4.74095 21.2913 5.5155 21.5423 6.49732C21.942 8.05641 21.992 11.0994 21.9982 11.8358L21.9991 11.9884V12.0099L21.9982 12.1625C21.992 12.8989 21.942 15.9419 21.5423 17.501C21.2878 18.4864 20.5451 19.261 19.6037 19.5228C18.8953 19.7203 17.467 19.8359 16.0375 19.9036L15.5341 19.9255C14.1143 19.9824 12.778 19.9953 12.2439 19.9983L12.0095 19.9991H11.9887L11.7545 19.9983C10.6241 19.9921 5.89772 19.941 4.39451 19.5228C3.4496 19.2573 2.70692 18.4828 2.45587 17.501C2.0562 15.9419 2.00624 12.8989 2 12.1625V11.8358C2.00624 11.0994 2.0562 8.05641 2.45587 6.49732C2.7104 5.51186 3.45308 4.73732 4.39451 4.4755C5.89772 4.05723 10.6241 4.00622 11.7545 4H12.2439ZM9.99911 8.49914V15.4991L15.9991 11.9991L9.99911 8.49914Z"
+                        fill="white"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span> Əlçatanlıq </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <main class="main--about Nexora_page">
+      <section class="Nexora_pageHero Nexora_pageHero--compact">
+        <div class="container">
+          <div class="section__content section__content--inner Nexora_courseDetailShell">
+            <a class="ai-btn ai-btn--text Nexora_backLink" href="career.html">
+              Karyeraya qayıt
+            </a>
+            <div id="vacancyDetails" aria-live="polite">
+              <div class="Nexora_courseDetailV2__loading">
+                <p class="Nexora_eyebrow">Nexora Academy</p>
+                <h1>Vakansiya yüklənir…</h1>
+                <p>Zəhmət olmasa gözləyin.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" data-site-footer>
+      <div class="container footer__container">
+        <div class="footer__content">
+          <div class="footer__brand">
+            <a
+              class="footer__logo"
+              href="index.html"
+              aria-label="Nexora Academy &mdash; Ana s&#601;hif&#601;"
+            >
+              <img
+                alt="Nexora Academy"
+                decoding="async"
+                height="62"
+                loading="lazy"
+                src="assets/logo.png"
+                width="128"
+              />
+            </a>
+            <address class="footer__address">
+              <a
+                href="https://maps.app.goo.gl/sLNza7qxnoQFUVLr9"
+                rel="noopener noreferrer"
+                target="_blank"
+                >AF City, Baku, Azerbaijan</a
+              >
+            </address>
+            <div class="footer__contacts">
+              <div class="footer__contact">
+                <span class="footer__contact-label"
+                  >Telefon n&#246;mr&#601;si</span
+                >
+                <a href="tel:+994506690452">+994 50 669 04 52</a>
+              </div>
+              <div class="footer__contact">
+                <span class="footer__contact-label"
+                  >E-po&#231;t</span
+                >
+                <a href="mailto:office@nexoracademy.az"
+                  >office@nexoracademy.az</a
+                >
+              </div>
+            </div>
+          </div>
+          <nav
+            class="footer__column footer__menu"
+            aria-label="S&#252;r&#601;tli ke&#231;idl&#601;r"
+          >
+            <h2 class="footer__heading">
+              S&#252;r&#601;tli ke&#231;idl&#601;r
+            </h2>
+            <ul class="footer__menu-list">
+              <li><a href="index.html">Ana s&#601;hif&#601;</a></li>
+              <li><a href="courses.html">B&#252;t&#252;n kurslar</a></li>
+              <li><a href="academy.html">Akademiya</a></li>
+              <li><a href="career.html">Karyera</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="news.html">X&#601;b&#601;rl&#601;r</a></li>
+              <li><a href="contact.html">&#399;laq&#601;</a></li>
+            </ul>
+          </nav>
+          <div class="footer__column">
+            <h2 class="footer__heading">Sosial media</h2>
+            <ul class="footer__menu-list">
+              <li>
+                <a
+                  href="https://www.instagram.com/_nexoracademy"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/nexoracademy"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/@NexoraAcademy"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >YouTube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 Nexora Academy. B&#252;t&#252;n h&#252;quqlar qorunur.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

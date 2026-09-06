@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Şəbəkə mühəndisliyi karyerası</title><desc id="desc">Monitor qarşısında şəbəkə topologiyası üzərində işləyən mütəxəssis silueti</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#3554d1"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>
+  <rect width="1200" height="900" fill="#141414"/><rect x="420" y="115" width="670" height="470" rx="40" fill="#1f1f1f" stroke="#262626" stroke-width="8"/><rect x="475" y="170" width="560" height="350" rx="25" fill="#141414"/>
+  <g stroke="#5ba7ff" stroke-width="5"><path d="M570 350 700 245 850 355 955 245M700 245 735 460 850 355"/></g><g fill="url(#g)"><circle cx="570" cy="350" r="22"/><circle cx="700" cy="245" r="22"/><circle cx="850" cy="355" r="22"/><circle cx="955" cy="245" r="22"/><circle cx="735" cy="460" r="22"/></g>
+  <circle cx="290" cy="430" r="105" fill="url(#g)"/><path d="M80 825c25-210 110-315 210-315s185 105 210 315" fill="url(#g)"/><path d="M705 585h120l35 110H670l35-110Z" fill="#262626"/>
+</svg>

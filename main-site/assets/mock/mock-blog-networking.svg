@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Şəbəkə texnologiyaları bloqu</title><desc id="desc">Monitor üzərində şəbəkə topologiyası və server qovşaqları</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#3554d1"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="#141414"/><rect x="145" y="100" width="910" height="565" rx="38" fill="#1f1f1f" stroke="#262626" stroke-width="8"/><rect x="205" y="160" width="790" height="420" rx="24" fill="#141414"/>
+  <g stroke="#5ba7ff" stroke-width="5"><path d="M325 365 500 245 690 375 870 245"/><path d="M500 245 520 500 690 375 840 505"/></g><g fill="url(#g)"><circle cx="325" cy="365" r="28"/><circle cx="500" cy="245" r="28"/><circle cx="690" cy="375" r="28"/><circle cx="870" cy="245" r="28"/><circle cx="520" cy="500" r="28"/><circle cx="840" cy="505" r="28"/></g>
+  <path d="M480 665h240l45 70H435l45-70Z" fill="#262626"/>
+</svg>

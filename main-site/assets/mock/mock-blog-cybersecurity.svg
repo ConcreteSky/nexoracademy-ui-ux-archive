@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Kibertəhlükəsizlik bloqu</title><desc id="desc">Təhlükəsizlik qalxanı və kod terminalı</desc>
+  <defs><linearGradient id="g"><stop stop-color="#3554d1"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="#141414"/><rect x="105" y="105" width="990" height="590" rx="42" fill="#1f1f1f" stroke="#262626" stroke-width="7"/>
+  <rect x="165" y="175" width="540" height="450" rx="25" fill="#141414"/><g stroke="#5ba7ff" stroke-width="18" stroke-linecap="round"><path d="m235 290 70 55-70 55"/><path d="M350 405h175M235 500h330" opacity=".55"/></g>
+  <path d="M875 175 1030 240v130c0 116-65 188-155 230-90-42-155-114-155-230V240l155-65Z" fill="url(#g)"/><rect x="815" y="335" width="120" height="105" rx="22" fill="#141414"/><path d="M835 335v-30a40 40 0 0 1 80 0v30" fill="none" stroke="#141414" stroke-width="22"/>
+</svg>
